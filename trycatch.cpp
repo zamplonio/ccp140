@@ -15,7 +15,7 @@ int divisao(int x, int y){
     return x/y;
 }
 
-int main(){
+void trycatch(){
     int x=1, y=0, z;
     try{
      z = divisao(x,y);
